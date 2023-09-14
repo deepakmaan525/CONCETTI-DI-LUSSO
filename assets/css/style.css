@@ -38,6 +38,12 @@
 .clr-lightblack{
     color: var(--light-black);
 }
+.bg-white{
+    background-color: var(--white);
+}
+.bg-darkpink{
+    background-color: var(--dark-pink);
+}
 *{
     margin:0;
     padding: 0;
@@ -62,8 +68,7 @@
     min-width: 100px;
     display:grid;
     border-radius: 5px;
-    background-color: #9e3040;
-    color: #fff;
+    background-color:var(--dark-pink);   
     padding-left: 30px;
     display: none;
 }
@@ -104,6 +109,7 @@
     border-radius: 5px;
     font-size: var(--fs-18);
     font-weight: var(--fw-600);
+    border:none;
 }
 .mx-20{
     margin-left: 20px;
@@ -131,6 +137,12 @@
 .f-page-dis{
     font-size: var(--fs-24);
     font-weight: var(--fw-400);
+}
+.p-10_28{
+    padding: 10px 20px;
+}
+.mt-30{
+    margin-top: 30px;
 }
 
 
