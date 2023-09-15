@@ -20,6 +20,7 @@
     --light-black:#303030;
     --grey:#686868;
     --white:#fff;
+    --wheat:#f3f5f6;
     --light-blue:#F7F7F7;
     --dark-pink:#9e3040;    
 }
@@ -37,6 +38,9 @@
 }
 .clr-lightblack{
     color: var(--light-black);
+}
+.bg-black{
+    background-color: var(--black);
 }
 .bg-white{
     background-color: var(--white);
@@ -225,8 +229,58 @@
     padding-bottom: 95px;
 }
 
+/* 4th section */
 
+.cotton-card{
+    max-width: 544px;
+    border-radius: 30px;
+    background: var(--wheat);
+     padding-left: 30px;
+     padding-right: 30px; 
+}
+.f-cotton-main{
+    font-size: var(--fs-36);
+    font-weight: var(--fw-700);
+}
+.f-cotton-des{
+    max-width: 475px;
+    font-size: var(--fs-17);
+    font-weight: var(--fw-400);
+    line-height: 180%;
+}
+.pt-75{
+    padding-top: 75px;
+}
+.mb-75{
+    margin-bottom: 48px;
+}
+.px-6{
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+}
 
+/* 5th section */
+
+.trending-card{
+    max-width: 410px;
+    height: 600px;
+    border-radius: 10px;
+    background: var(--white);
+    box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.10);
+}
+.trending-main{
+    font-size: var(--fs-24);
+    font-weight: var(--fw-700);
+    max-width: 265px;
+}
+.trending-des{
+    font-size: var(--fs-17);
+    font-weight: var(--fw-400);
+    max-width: 373px;
+}
+.br-10{
+    border-radius: 10px;
+}
 
 @media (min-width:1400) {
     .my-container{
