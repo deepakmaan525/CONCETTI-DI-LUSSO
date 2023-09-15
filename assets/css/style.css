@@ -168,6 +168,63 @@
 .pt-90{
     padding-top: 90px;
 }
+/* 3rd section */
+
+.f-section-main{
+    font-size: var(--fs-36);
+    font-weight: var(--fw-600);
+}
+.sec-3-bg-img{
+    background-image: url("../images/towel-img-background.png");
+    background-size: 100% 100%;
+    background-position: fixed;
+    border-radius: 30px;
+}
+.product-card{
+    padding: 23px 14px 32px 14px;
+    border-radius: 10px;
+    background: #F3F5F6;
+    box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.00);
+}
+.sec-3-img-set{
+    height: 190px;
+}
+.product-btn{
+    padding: 8px 15px;
+    color:var(--white);
+    background-color: var(--black);
+    font-size: var(--fs-16);
+    font-weight: var(--fw-600);
+    border: none;
+    border-radius: 5px;
+}
+.f-explore{
+    line-height: 117.1%; 
+    font-size: var(--fs-58);
+    font-weight: var(--fw-600);
+}
+.product-card-dis{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+}
+.f-discount-money{
+    font-size: var(--fs-24);
+    font-weight: var(--fw-600);
+}
+.f-old-money{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+}
+.pb-40{
+    padding-bottom: 40px;
+}
+.pt-95{
+    padding-top: 95px;
+}
+.pb-95{
+    padding-bottom: 95px;
+}
+
 
 
 
