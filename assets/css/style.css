@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
 :root{
     /*font-size */
     --fs-14:14px;
@@ -68,6 +69,7 @@
 .page-logo{
     font-size: var(--fs-15);
     font-weight: var(--fw-600);
+    font-family: 'Hind Siliguri', sans-serif;
 }
 .dropdown-content{
     min-width: 100px;
@@ -95,15 +97,18 @@
 .f-pagetop{
     font-size: var(--fs-14);
     font-weight: var(--fw-400);
+    font-family: 'Hind Siliguri', sans-serif;
 }
 .f-top-main{
     font-size: var(--fs-18);
     font-weight: var(--fw-600);
+    font-family: 'Hind Siliguri', sans-serif;
 }
 .f-nav-li{
     font-size: var(--fs-18);
     font-weight: var(--fw-400);
     transition: .4s;
+    font-family: 'Hind Siliguri', sans-serif;
 }
 .f-nav-li:hover{
     -webkit-text-stroke: 0.7px var(--grey);
@@ -124,6 +129,7 @@
     border-radius: 5px;
     font-size: var(--fs-18);
     font-weight: var(--fw-600);
+    font-family: 'Hind Siliguri', sans-serif;
     border:none;
 }
 .mx-20{
@@ -149,10 +155,12 @@
 .f-page-main{
     font-size: var(--fs-64);
     font-weight: var(--fw-600);
+    font-family: 'Hind Siliguri', sans-serif;
 }
 .f-page-dis{
     font-size: var(--fs-24);
     font-weight: var(--fw-400);
+    font-family: 'Hind Siliguri', sans-serif;
 }
 .p-10_28{
     padding: 10px 20px;
@@ -176,6 +184,7 @@
 .f-card-main{
     font-size: var(--fs-30);
     font-weight: var(--fw-600);
+    font-family: 'Hind Siliguri', sans-serif;
 }
 .f-card-secondary{
     font-size: var(--fs-17);
@@ -189,6 +198,7 @@
 .f-section-main{
     font-size: var(--fs-36);
     font-weight: var(--fw-600);
+    font-family: 'Hind Siliguri', sans-serif;
 }
 .sec-3-bg-img{
     background-image: url("../images/towel-img-background.png");
@@ -214,23 +224,28 @@
     font-weight: var(--fw-600);
     border: none;
     border-radius: 5px;
+    font-family: 'Hind Siliguri', sans-serif;
 }
 .f-explore{
     line-height: 117.1%; 
     font-size: var(--fs-58);
     font-weight: var(--fw-600);
+    font-family: 'Hind Siliguri', sans-serif;
 }
 .product-card-dis{
     font-size: var(--fs-16);
     font-weight: var(--fw-400);
+    font-family: 'Open Sans', sans-serif;
 }
 .f-discount-money{
     font-size: var(--fs-24);
     font-weight: var(--fw-600);
+    font-family: 'Hind Siliguri', sans-serif;
 }
 .f-old-money{
     font-size: var(--fs-16);
     font-weight: var(--fw-400);
+    font-family: 'Hind Siliguri', sans-serif;
 }
 .pb-40{
     padding-bottom: 40px;
@@ -254,12 +269,14 @@
 .f-cotton-main{
     font-size: var(--fs-36);
     font-weight: var(--fw-700);
+    font-family: 'Hind Siliguri', sans-serif;
 }
 .f-cotton-des{
     max-width: 475px;
     font-size: var(--fs-17);
     font-weight: var(--fw-400);
     line-height: 180%;
+    font-family: 'Open Sans', sans-serif;
 }
 .pt-75{
     padding-top: 75px;
@@ -285,11 +302,13 @@
     font-size: var(--fs-24);
     font-weight: var(--fw-700);
     max-width: 265px;
+    font-family: 'Hind Siliguri', sans-serif;
 }
 .trending-des{
     font-size: var(--fs-17);
     font-weight: var(--fw-400);
     max-width: 373px;
+    font-family: 'Open Sans', sans-serif;
 }
 .br-10{
     border-radius: 10px;
@@ -306,10 +325,12 @@
     max-width: 850px;
     font-size: var(--fs-17);
     font-weight: var(--fw-400);
+    font-family: 'Open Sans', sans-serif;
 }
 .f-person{
     font-size: var(--fs-24);
     font-weight: var(--fw-700);
+    font-family: 'Hind Siliguri', sans-serif;
 }
 .pb-60{
     padding-bottom: 60px;
@@ -361,6 +382,7 @@
 .f-subscribe{
     font-size: var(--fs-17);
     font-weight: var(--fw-400);
+    font-family: 'Open Sans', sans-serif;
     max-width: 619px;
 }
 input{
@@ -370,6 +392,7 @@ input{
     border-radius: 5px;
     padding-left: 24px;
     min-width: 40%;
+    font-family: 'Hind Siliguri', sans-serif;
     border: 2px solid var(--dark-pink);
 }
 .p-btn{
@@ -386,10 +409,12 @@ input{
 .f-footer-li{
     font-size: var(--fs-17);
     font-weight: var(--fw-400);
+    font-family: 'Open Sans', sans-serif;
 }
 .f-footer-main{
     font-size: var(--fs-30);
     font-weight: var(--fw-600);
+    font-family: 'Hind Siliguri', sans-serif;
 }
 
 footer{
@@ -441,6 +466,8 @@ footer{
 .f-copyright{
     font-size: var(--fs-17);
     font-weight: var(--fw-400);
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 .cross-1 {
