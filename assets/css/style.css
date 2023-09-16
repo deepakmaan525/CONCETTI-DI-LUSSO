@@ -66,6 +66,14 @@
     float: left;
     transition: .3s;
 }
+.hover-light{
+    transition: .4s;
+}
+.hover-light:hover{
+    background-color: var(--light-blue);
+    color: var(--dark-pink);
+    border: 2px solid var(--dark-pink);
+}
 .page-logo{
     font-size: var(--fs-15);
     font-weight: var(--fw-600);
@@ -130,7 +138,7 @@
     font-size: var(--fs-18);
     font-weight: var(--fw-600);
     font-family: 'Hind Siliguri', sans-serif;
-    border:none;
+    border:2px solid transparent;
 }
 .mx-20{
     margin-left: 20px;
@@ -225,6 +233,10 @@
     border: none;
     border-radius: 5px;
     font-family: 'Hind Siliguri', sans-serif;
+    transition: .4s;
+}
+.product-btn:hover{
+    background-color: var(--dark-pink);
 }
 .f-explore{
     line-height: 117.1%; 
@@ -592,7 +604,7 @@ footer{
     label[id="menuIcon"]>span {
         width: 100%;
         height: 5px;
-        background: #9E3040;
+        background:var(--dark-pink);
     }
     .nav-flip {       
         flex-direction: column !important;
@@ -605,7 +617,7 @@ footer{
         width: 100%;
         max-width: 400px;
         height: 100%;
-        background: white;
+        background: var(--white);
         z-index: 3;
         box-shadow: 0px 0px 19px 9px rgba(0, 0, 0, 0.10);
         transition: .8s;
