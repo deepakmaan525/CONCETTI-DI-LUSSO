@@ -180,7 +180,21 @@
 .img-position{
     position: absolute;
     top: 35%;
-    z-index: 0;
+    z-index: -1;
+}
+.line::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    bottom: 33%;
+    background-color: black;
+    transition: .4s
+}
+.line:hover::after{
+    width: 40%;
+    left: 0;
 }
 .f-card{
     max-width: 100px;
@@ -197,6 +211,7 @@
 .f-card-secondary{
     font-size: var(--fs-17);
     font-weight: var(--fw-400);
+    font-family: 'Open Sans', sans-serif;
 }
 .pt-90{
     padding-top: 90px;
@@ -424,6 +439,10 @@ input{
     font-size: var(--fs-17);
     font-weight: var(--fw-400);
     font-family: 'Open Sans', sans-serif;
+    transition: .4s;
+}
+.f-footer-li:hover{
+    -webkit-text-stroke: 0.4px var(--light-black);
 }
 .f-footer-main{
     font-size: var(--fs-30);
