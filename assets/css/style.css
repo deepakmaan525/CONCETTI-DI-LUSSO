@@ -180,7 +180,7 @@
 .img-position{
     position: absolute;
     top: 35%;
-    z-index: -3;
+    z-index: 0;
 }
 .f-card{
     max-width: 100px;
@@ -329,6 +329,8 @@
 /* 6th section */
 
 .thought-card{
+    padding-left: 12px;
+    padding-right: 12px;
     max-width: 1280px;
     border-radius: 30px;
     background: var(--dark-pink);
@@ -405,10 +407,10 @@ input{
     padding-left: 24px;
     min-width: 40%;
     font-family: 'Hind Siliguri', sans-serif;
-    border: 2px solid var(--dark-pink);
+    border: 1px solid #E2C1C6;
 }
 .p-btn{
-    padding: 12px 10px;
+    padding: 9px 10px;
 }
 .pr-0{
     padding-right: 0;
@@ -537,6 +539,9 @@ footer{
     .trending-card{
         height: 600px;
     }
+    .sec-3-bg-img{
+        height: 500px;
+    }
     .page-logo{
         font-size: var(--fs-30);
         font-weight: var(--fw-600);
@@ -584,9 +589,7 @@ footer{
         grid-column: 3/4;
     }
     
-}
-    
-
+}  
 @media (max-width:1200px) {
     label[id="menuIcon"] {
         width: 30px;
@@ -623,11 +626,10 @@ footer{
         transition: .8s;
     }
 
-    .fix-lft {
+    .left-0 {
         left: 0;
     }
 }
-
 @media (min-width:1400) {
     .my-container{
         max-width: 1280px !important;

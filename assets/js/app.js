@@ -5,7 +5,7 @@ let cross5 = document.querySelector(".cross-5")
 let cross6 = document.querySelector(".cross-6")
 
 function responsive() {
-    a.classList.toggle("fix-lft")
+    a.classList.toggle("left-0")
     flow.classList.toggle("flow-hidden")
     cross4.classList.toggle("cross-1")
     cross5.classList.toggle("cross-2")
