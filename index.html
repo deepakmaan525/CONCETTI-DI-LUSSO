@@ -31,8 +31,8 @@
             <p class="f-pagetop clr-black mb-0 pt-1">801-462-6210</p>
           </a>
         </li>
-        <li>
-          <a href="mailto:Support@concetti-di-lusso.com" class="d-flex gap-3">
+        <li class="d-none d-lg-flex">
+          <a href="mailto:Support@concetti-di-lusso.com" class=" d-flex">
             <span>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 18" fill="none">
                 <path
@@ -47,7 +47,7 @@
           </a>
         </li>
         <li>
-          <a href="" class="f-top-main clr-darkpink d-none">FREE SHIPPING! Orders $35+</a>
+          <a href="#" class="f-top-main clr-darkpink">FREE SHIPPING! Orders $35+</a>
         </li>
         <li class=" d-none d-lg-flex d-none">
           <a href="https://maps.google.com/maps?q=8385 South Allen Street, Suite 111, Sandy UT 84070" target="_blank" class="d-flex gap-3">
@@ -68,9 +68,9 @@
     </div>
   </section>
   <header>
-    <div class="container my-container my-5">
-      <nav class="d-flex">
-        <h2 class="page-logo mb-0 clr-darkpink pr-5 text-center">CONCETTI DI-LUSSO</h2>
+    <div class="container my-container my-sm-5 my-3">
+      <nav class="d-flex justify-content-between">
+        <h2 class="page-logo mb-0 clr-darkpink pr-5 text-center pr-sm-20">CONCETTI DI-LUSSO</h2>
         <div class="d-flex align-items-center justify-content-center">
 
           <label id="menuIcon" onclick="responsive()">
@@ -80,36 +80,24 @@
           </label>
           <ul class="nav-flip d-flex align-items-center justify-content-center gap-4 mb-0 pl-0" Id="nav">
               <li><a href="#Home" class="w-100 f-nav-li clr-grey ">Home</a></li>
-              <li><a href="#" class="w-100 f-nav-li clr-grey ">Towels</a></li>
+              <li class="links position-relative"><a href="#" class="w-100 f-nav-li clr-grey ">Towels</a>
+                <span class="down-arrow"><svg width="12" height="7" viewBox="0 0 12 7" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.5 1L6 5.5L10.5 1" stroke="#686868" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </span>
+              <div class="dropdown-content position-dropdown">
+                <a href="#" class="w-100 f-nav-li clr-white">Cotton</a>
+                <a href="#" class="w-100 f-nav-li clr-white">Silk</a>
+                <a href="#" class="w-100 f-nav-li clr-white">Leather</a>
+              </div>
+              </li>
               <li><a href="#" class="w-100 f-nav-li clr-grey ">Robes</a></li>
               <li><a href="#" class="w-100 f-nav-li clr-grey ">Bathroom Sets</a></li>
               <li><a href="#" class="primary-btn p-10_32 clr-white d-xl-none">Sign In</a></li>
           </ul>
       </div>
-        <!-- <label id="menu" onclick="respinsive()">
-          <span class="span-1"></span>
-          <span class="span-2"></span>
-          <span class="span-3"></span>
-      </label>
-        <ul class="d-flex gap-4 mb-0 align-items-center justify-content-center phoneview" id="nav">
-          <li><a href="" class="f-nav-li fw-medium clr-black">Home</a></li>
-          <li class="links position-relative"><a href="" class="f-nav-li clr-grey">Towels</a>
-            <span class="down-arrow"><svg width="12" height="7" viewBox="0 0 12 7" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M1.5 1L6 5.5L10.5 1" stroke="#686868" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round" />
-              </svg>
-            </span>
-            <div class="dropdown-content position-dropdown">
-              <a href="#" class="w-100 f-nav-li clr-white">Link 1</a>
-              <a href="#" class="w-100 f-nav-li clr-white">Link 2</a>
-              <a href="#" class="w-100 f-nav-li clr-white">Link 3</a>
-            </div>
-          </li>
-          <li><a href="" class="f-nav-li clr-grey">Robes</a></li>
-          <li><a href="" class="f-nav-li clr-grey">Bathroom Sets</a></li>
-          <li><a href="" class="primary-btn p-10_32 clr-white d-lg-none">SIGN IN</a></li>
-        </ul> -->
         <ul class="d-flex mb-0 align-items-center pl-0">
           <li class="icon-hover"><a href="" class="p-sm-3 p-2 nav-icons"><svg width="23" height="23" viewBox="0 0 23 23" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
@@ -159,7 +147,7 @@
   <section class="position-relative overflow-hidden">
     <div><img class="img-position" src="./assets/images/curved-bg-img.png" alt="curved img"></div>
     <div class="container my-container ">
-      <div class="row pt-90 flex-wrap">
+      <div class="row pt-sm-90 pt-15 flex-wrap">
         <div class="col-lg-4 col-md-6 col-sm-12 col-12">
           <div class=" f-card mx-auto">
             <svg width="60" height="40" viewBox="0 0 60 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -213,9 +201,9 @@
   </section>
   <!-- 3rd section -->
   <section>
-    <div class="container my-container pt-95">
+    <div class="container my-container pt-sm-95 pt-14">
       <h2 class="f-section-main clr-black text-center">Featured Product</h2>
-      <div class="row pt-4 pb-95">
+      <div class="row pt-4 pb-sm-95 pb-15">
         <div class="col-xl-5 col-lg-12 col-12 sec-3-bg-img d-flex align-items-center justify-content-center">
           <p class=" text-center mb-0 f-explore clr-white">Explore More Product</p>
         </div>
@@ -284,7 +272,7 @@
   <!-- 4th section -->
   <section>
     <div class="container my-container">
-      <div class="row pt-90 flex-column-reverse flex-lg-row">
+      <div class="row pt-sm-90 pt-15 flex-column-reverse flex-lg-row">
         <div class="col-lg-5 col-md-5 col-sm-12 col-12 px-6 pt-4">
           <div class="cotton-card">
             <h2 class="f-cotton-main clr-darkpink pt-5">Organic Cotton and Bamboo</h2>
@@ -311,10 +299,10 @@
   <!-- 5th section -->
   <section>
     <div class="container my-container">
-      <h2 class="f-section-main clr-black text-center pt-90 pb-5">Trending Product</h2>
-      <div class="row pb-95">
-        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-          <div class="trending-card">
+      <h2 class="f-section-main clr-black text-center pt-sm-90 pt-15 pb-5">Trending Product</h2>
+      <div class="row pb-sm-95 pb-15">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-sm-3">
+          <div class="trending-card mb-2">
             <img src="./assets/images/trending-card1.png" alt="product img" class="br-10 w-100">
             <p class="trending-main clr-darkpink px-3">PERFECT GIFT EVEN FOR YOURSELF!</p>
             <p class="trending-des clr-lightblack px-3">Well suited as a gift set, these cotton towels
@@ -323,8 +311,8 @@
               and yourself.</p>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-          <div class="trending-card">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-sm-3">
+          <div class="trending-card mb-2">
             <img src="./assets/images/trending-card2.png" alt="product img" class="br-10 w-100">
             <p class="trending-main clr-darkpink px-3">USE FOR ANYTHING</p>
             <p class="trending-des clr-lightblack px-3">Perfect for your hands, face and body…
@@ -334,8 +322,8 @@
               quick-dry towels that will last forever.</p>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-          <div class="trending-card">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-sm-3">
+          <div class="trending-card mb-2">
             <img src="./assets/images/trending-card3.png" alt="product img" class="br-10 w-100">
             <p class="trending-main clr-darkpink px-3">EXTRA ABSORBENT</p>
             <p class="trending-des clr-lightblack px-3">Thanks to its natural properties, our 100%
@@ -353,9 +341,9 @@
   <!-- 6th section -->
   <section>
     <div class="container my-container">
-      <h2 class="f-section-main clr-black text-center pt-95 mb-5">Our Testimonials</h2>
+      <h2 class="f-section-main clr-black text-center pt-sm-95 pt-15 mb-5">Our Testimonials</h2>
       <div class="thought-card position-relative">
-        <p class="f-thought clr-white text-center mx-auto pt-95 mb-0">The item is in a great quality and is shipped in
+        <p class="f-thought clr-white text-center mx-auto pt-sm-95 pt-15 mb-0">The item is in a great quality and is shipped in
           the wonderful presentation box. The little brooches are
           needed to be removed before washing. As far as softness goes, IMHO, I’ve seen softer ones. I would definitely
           would
@@ -369,7 +357,7 @@
   <!-- 7th section -->
   <section>
     <div class="container my-container">
-      <h2 class="f-section-main text-center pb-4 pt-90">Product Gallery</h2>
+      <h2 class="f-section-main text-center pb-4 pt-sm-90 pt-15">Product Gallery</h2>
       <div class="grid-container">
         <div class="grid-item-1"><img class="w-100 h-100 grid-items" src="./assets/images/grid-img1.png"
             alt="grid image"></div>
@@ -388,11 +376,11 @@
 
   <section>
     <div class="container mycontainer">
-      <h2 class="f-section-main text-center clr-black pt-75">Get In Touch</h2>
+      <h2 class="f-section-main text-center clr-black pt-sm-90 pt-15">Get In Touch</h2>
       <p class="f-subscribe clr-lightblack mx-auto text-center pt-4">Subscribe to our weekly newsletter and receive
         exclusive offers on products
         you love!</p>
-      <div class="d-flex justify-content-center align-items-center mb-100">
+      <div class="d-flex justify-content-center align-items-center mb-sm-100 mb-15">
         <input type="email" placeholder="Email Address" class="m-0 pr-0">
         <button class="primary-btn p-btn m-0 clr-white">SUBSCRIBE</button>
       </div>
@@ -416,7 +404,7 @@
         <div class="col-lg-4 col-md-6 col-sm-12 col-12">
           <p class="mb-0 pb-20 f-footer-main clr-black">Contact Us</p>
           <ul class="pl-0">
-            <li class="pb-4"><a href="https://maps.google.com/maps?q=8385 South Allen Street, Suite 111, Sandy UT 84070" class="d-flex"><span class="pr-20"><svg width="17" height="22" viewBox="0 0 17 22" fill="none"
+            <li class="pb-4"><a href="https://maps.google.com/maps?q=8385 South Allen Street, Suite 111, Sandy UT 84070" target="_blank" class="d-flex"><span class="pr-20"><svg width="17" height="22" viewBox="0 0 17 22" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M8.75 0C13.2999 0 17 3.70012 17 8.25C17 13.9686 9.553 21.4816 9.23675 21.7992C9.102 21.9326 8.926 22 8.75 22C8.574 22 8.398 21.9326 8.26325 21.7992C7.947 21.4816 0.5 13.9686 0.5 8.25C0.5 3.70012 4.20012 0 8.75 0ZM8.75 20.3184C10.3917 18.5611 15.625 12.6184 15.625 8.25C15.625 4.45913 12.5409 1.375 8.75 1.375C4.95913 1.375 1.875 4.45913 1.875 8.25C1.875 12.6143 7.10825 18.5611 8.75 20.3184Z"
