@@ -54,6 +54,7 @@
     box-sizing: border-box;
     text-decoration: none !important;
     list-style-type: none !important;
+    /* border: 1px solid red; */
 }
 /* nav-bar */
 
@@ -65,7 +66,7 @@
     transition: .3s;
 }
 .page-logo{
-    font-size: var(--fs-30);
+    font-size: var(--fs-24);
     font-weight: var(--fw-600);
 }
 .dropdown-content{
@@ -102,6 +103,10 @@
 .f-nav-li{
     font-size: var(--fs-18);
     font-weight: var(--fw-400);
+    transition: .4s;
+}
+.f-nav-li:hover{
+    -webkit-text-stroke: 0.7px var(--black);
 }
 .nav-icons{
     background-color: var(--white);
@@ -361,11 +366,14 @@
 input{
     padding-top: 12px;
     padding-bottom: 12px;
+    outline: unset;
+    border-radius: 5px;
     padding-left: 24px;
-    min-width: 423px;
+    min-width: 40%;
+    border: 2px solid var(--dark-pink);
 }
-.p-10_37{
-    padding: 13px 37px;
+.p-btn{
+    padding: 12px 10px;
 }
 .pr-0{
     padding-right: 0;
@@ -408,6 +416,12 @@ footer{
 .pr-16{
     padding-right: 16px;
 }
+.pl-0{
+    padding-left: 0;
+}
+.pr-5{
+    padding-right: 5px;
+}
 .footer-line::after{
     content: "";
     width: 359px;
@@ -420,7 +434,85 @@ footer{
     font-weight: var(--fw-400);
 }
 
+.cross-1 {
+    rotate: 45deg;
+    transition: .4s;
+}
 
+.cross-2 {
+    position: relative;
+    transition: .4s;
+    top: -80%;
+    rotate: -45deg;
+}
+
+.cross-4 {
+    transition: .4s;
+}
+
+.cross-5 {
+    transition: .4s;
+}
+
+.cross-6 {
+    transition: .4s;
+}
+
+.cross-3 {
+    display: none !important;
+}
+@media (min-width:576px) {
+    input{
+        width: 40%;
+    }
+    .p-btn{
+        padding: 13px 37px;
+    }
+    .page-logo{
+        font-size: var(--fs-30);
+        font-weight: var(--fw-600);
+    }
+}
+@media (max-width:1200px) {
+    label[id="menuIcon"] {
+        width: 30px;
+        height: 24px;
+        cursor: pointer;
+        display: flex;
+        position: absolute;
+        right: 2%;
+        top: 2%;
+        justify-content: space-between;
+        flex-direction: column;
+        z-index: 5;
+        align-items: center;
+    }
+    label[id="menuIcon"]>span {
+        width: 100%;
+        height: 5px;
+        background: #9E3040;
+    }
+    .nav-flip {       
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: -100%;
+        position: fixed;
+        opacity: 1;
+        width: 100%;
+        max-width: 400px;
+        height: 100%;
+        background: white;
+        z-index: 3;
+        box-shadow: 0px 0px 19px 9px rgba(0, 0, 0, 0.10);
+        transition: .8s;
+    }
+
+    .fix-lft {
+        left: 0;
+    }
+}
 
 @media (min-width:1400) {
     .my-container{
